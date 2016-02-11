@@ -1,0 +1,41 @@
+html,body {
+  height: 100%;
+  font-family: 'lato';
+}
+
+header {
+  background-image: url('../images/intro5.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttontwitter {
+  border: 1px solid #498FBD;
+  border-radius: 5px;
+  background-color: #498FBD;
+  padding: 7px 10px;
+}
+
+.sdbutton {
+  border: 1px solid white;
+  background-color: #49535D;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
