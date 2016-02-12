@@ -11,14 +11,79 @@ header {
   text-align: center;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+.centerheader {
+  position: relative;
+  top: 35%;
+}
+
+h2, h3 {
+  color: #34495E;
+}
+
+.credit p {
+  color: #34495E;
+}
+
+.whitetitle {
+  color: white;
+}
+
+.buttonvert {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #1ABC9C;
+  background-color: #1ABC9C;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+
+.buttonvert2 {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #1ABC9C;
+  background-color: #1ABC9C;
+  padding: 7px 25px;
+}
+
+.divmarg {
+  margin-bottom: 30px;
+}
+
+.buttonblue {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #3498DB;
+  background-color: #3498DB;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+
+.whatis p {
+  color: black;
+  opacity: 0.4;
+}
+
+.greyclair {
+  color: black;
+  opacity: 0.4;
+}
+
+.greyfonce {
+  color: black;
+  opacity: 0.6;
 }
 
 h1 {
   margin: 0;
+  color: white;
+}
+
+.flechebas {
+  margin-top: 15%;
+}
+
+header h2 {
+  color: white;
 }
 
 header a {
@@ -38,4 +103,55 @@ header a {
   background-color: #49535D;
   border-radius: 5px;
   padding: 7px 15px;
+}
+
+.navleft {
+  text-align: center;
+}
+
+nav {
+  background-color: #ECF0F1;
+  height: 7%;
+}
+
+
+nav a {
+  margin-right: 1em;
+  font-size: 1.6em;
+  line-height: 2em;
+  color: #4C5F71;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #4C5F71;
+}
+
+.fst1, .snd2 {
+  text-align: center;
+}
+
+.whatis2 {
+  background-color: #F8F8F8;
+}
+
+
+.whatis h3 {
+  margin-top: 40px;
+}
+
+.fontawe {
+  background-color: #F8F8F8;
+}
+
+.screenapp img {
+  max-width: 100%;
+}
+
+.getlive {
+  background-color: #34495E;
+}
+
+.credit {
+  background-color: #F8F8F8;
 }
