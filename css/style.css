@@ -42,7 +42,12 @@ h2, h3 {
   color: white;
   border: 1px solid #1ABC9C;
   background-color: #1ABC9C;
-  padding: 7px 25px;
+  padding: 7px 50px;
+}
+
+.buttonvert2:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .divmarg {
@@ -150,8 +155,105 @@ nav a:hover {
 
 .getlive {
   background-color: #34495E;
+  padding: 5em;
 }
 
 .credit {
   background-color: #F8F8F8;
+}
+
+.downloadfree {
+  background-image:  url("/images/banner-bg.jpg");
+  padding: 6em;
+  background-position: center;
+}
+
+.downloadfree h2, a {
+  color: white;
+}
+
+.titlesecti {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+.downloadfree a {
+  text-decoration: none;
+  background-color: #324C63;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+
+.downloadfree a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btncont {
+  border: 1px solid #18AD90;
+  background-color: #18AD90;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 0.6em;
+}
+
+.btncont:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.ofice a {
+  text-decoration: none;
+  color: #34495E;
+}
+
+footer {
+  background-color: #EDEFF1;
+  margin-top: 2em;
+}
+
+.bacblu {
+  background-color: #34495E;
+}
+
+.bacblu a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.bacblu h3 {
+  color: white;
+}
+
+.whatis img:hover {
+  transition:transform 1s;
+}
+.whatis img:hover {
+  transform: rotate(360deg);
+}
+
+.ipad:hover, .iphone:hover {
+  cursor: url("/images/cross.png"), auto;
+}
+
+.marsec {
+  margin-top: 3em;
+}
+
+.ipad, .iphone, .dog {
+  margin: 2em;
+}
+
+.screenapp img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.ofice h3 {
+  font-size: 1.2em;
+}
+
+.credit img {
+  margin-right: 3em;
+  margin-bottom: 3em;
 }
