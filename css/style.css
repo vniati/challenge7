@@ -244,9 +244,22 @@ footer {
   margin: 2em;
 }
 
+.carousel-indicators .active {
+  background-color: #1ABC9C;
+}
+
+.carousel-indicators li {
+    background-color: #8DDECE;
+}
+
 .screenapp img {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.pointcarou {
+    margin-top: 0;
+    margin-bottom: -15px;
 }
 
 .ofice h3 {
@@ -256,4 +269,18 @@ footer {
 .credit img {
   margin-right: 3em;
   margin-bottom: 3em;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #1ABC9C;
 }
