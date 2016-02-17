@@ -116,9 +116,11 @@ header a {
 
 nav {
   background-color: #ECF0F1;
-  height: 7%;
 }
 
+#sidebar {
+  z-index: 2;
+}
 
 nav a {
   margin-right: 1em;

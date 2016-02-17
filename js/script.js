@@ -10,4 +10,9 @@ $(document).ready(function() {
 
   });
 
+  $('#sidebar').hcSticky({
+      bottomEnd: 10,
+      wrapperClassName: 'sidebar-sticky',
+      stickTo : document
+  });
 });
